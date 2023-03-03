@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/react-portfolio/static/js/main.2cebd8fb.js",
+    "main.css": "/react-portfolio/static/css/main.922f082e.css",
+    "main.js": "/react-portfolio/static/js/main.364397e8.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/pexels-mentatdgt-1569076.jpg": "/react-portfolio/static/media/pexels-mentatdgt-1569076.99e80a9f8ecce59264e6.jpg",
+    "static/media/pexels-jaime-reimer-2662116.jpg": "/react-portfolio/static/media/pexels-jaime-reimer-2662116.076a84276c62ea3351b3.jpg",
+    "static/media/BackyardSportsLogo1.png": "/react-portfolio/static/media/BackyardSportsLogo1.7a69f0bb7c46443dc9bf.png",
+    "static/media/park-finder-logo.png": "/react-portfolio/static/media/park-finder-logo.5db7540f99d3a9fcc1b0.png",
     "index.html": "/react-portfolio/index.html",
-    "main.073c9b0a.css.map": "/react-portfolio/static/css/main.073c9b0a.css.map",
-    "main.2cebd8fb.js.map": "/react-portfolio/static/js/main.2cebd8fb.js.map",
+    "main.922f082e.css.map": "/react-portfolio/static/css/main.922f082e.css.map",
+    "main.364397e8.js.map": "/react-portfolio/static/js/main.364397e8.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.2cebd8fb.js"
+    "static/css/main.922f082e.css",
+    "static/js/main.364397e8.js"
   ]
 }
