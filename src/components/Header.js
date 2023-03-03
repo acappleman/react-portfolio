@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Footer(props) {
+function Header(props) {
     return <header>
     <h1>Amanda Cappleman</h1>
     <nav>
@@ -14,4 +14,4 @@ function Footer(props) {
   </header>;
 }
 
-export default Footer;
+export default Header;

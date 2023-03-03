@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer(props) {
     return <footer>
-        <section class="contact-me" id="contact">
+        <section className="contact-me" id="contact">
           <h3>Contact Me</h3>
           <div>
             <address>
