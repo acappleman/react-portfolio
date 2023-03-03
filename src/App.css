@@ -36,3 +36,108 @@
     transform: rotate(360deg);
   }
 }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+}
+
+header {
+  padding: 35px;
+  text-align: center;
+  border: 5px solid black;
+}
+
+nav {
+  display: block;
+  text-align: right;
+}
+
+nav a {
+  color: black;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid;
+}
+
+.main-section {
+  padding: 10px;
+}
+
+.main-section h2,
+.contact-me h3 {
+  border-bottom: 3px solid;
+}
+
+.headshot {
+  border-radius: 100%;
+  width: 100px;
+}
+
+.work-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.work-card:first-child {
+  flex-basis: calc(100% - 50px);
+}
+
+.work-card {
+  border: 5px solid black;
+  min-height: 250px;
+  min-width: 200px;
+  display: flex;
+  flex-basis: calc(50% - 50px);
+  padding: 10px;
+  align-items: flex-end;
+  text-decoration: none;
+  font-size: 1em;
+  color: whitesmoke;
+  margin: 10px;
+  justify-content: flex-end;
+  background-size: cover;
+  font-weight: bold;
+}
+
+#challenge-1 {
+  background-image: url("../public/images/pexels-mentatdgt-1569076.jpg");
+}
+
+#challenge-2 {
+  background-image: url(../public/images/park-finder-logo.png);
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+#challenge-3 {
+  background-image: url("../public/images/BackyardSportsLogo1.png");
+  background-position-y: bottom;
+}
+
+#challenge-4 {
+  background-image: url("../public/images/pexels-jaime-reimer-2662116.jpg");
+}
+
+footer address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 8px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .work-card {
+      flex-basis: calc((100% - 50px));
+  }
+} 
